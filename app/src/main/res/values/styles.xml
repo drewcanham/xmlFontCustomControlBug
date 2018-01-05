@@ -6,6 +6,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="customButtonStyle">@style/Widget.AppCompat.Button.Custom</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.Custom" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="fontFamily">@font/fontawesome</item>
+        <item name="android:fontFamily">@font/fontawesome</item>
     </style>
 
 </resources>
